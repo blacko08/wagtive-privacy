@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · Wagtive</title>
+<style>
+  :root { --ink:#1a1c21; --muted:#5b616e; --brand:#E86F24; --line:#e6e3e0; --bg:#fdfcfb; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  main { max-width:44rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 .25rem; }
+  h2 { font-size:1.2rem; margin:2.5rem 0 .5rem; padding-top:1.25rem; border-top:1px solid var(--line); }
+  h3 { font-size:1rem; margin:1.5rem 0 .35rem; }
+  .updated { color:var(--muted); font-size:.9rem; margin-bottom:2rem; }
+  .lead { font-size:1.05rem; }
+  ul { padding-left:1.15rem; }
+  li { margin:.4rem 0; }
+  table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.93rem; display:block; overflow-x:auto; }
+  th, td { text-align:left; padding:.6rem .5rem; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-weight:700; }
+  a { color:var(--brand); }
+  .note { background:#fff; border:1px solid var(--line); border-radius:12px; padding:1rem 1.1rem; margin:1.25rem 0; }
+  .lang-switch { margin-bottom:2rem; font-size:.9rem; }
+  footer { margin-top:4rem; color:var(--muted); font-size:.85rem; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#f2f2f4; --muted:#a2a6b0; --line:#33353b; --bg:#131417; }
+    .note { background:#1c1e22; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Política de privacidad de Wagtive</h1>
+<p class="updated">Última actualización: 25 de agosto de 2026 · <a href="#en">Read in English</a></p>
+
+<p class="lead">Wagtive guarda por defecto todo en tu dispositivo. Lo único que sale de él es lo que
+tú activas: la copia en tu iCloud, tu cuenta, y —si lo enciendes— la manada. Este documento dice
+exactamente qué sale, cuándo y a dónde.</p>
+
+<h2>1. Responsable del tratamiento</h2>
+<p>Wagtive, desarrollada por <strong>Jota Llanos</strong>. Para cualquier consulta sobre privacidad,
+o para ejercer tus derechos, escribe a
+<a href="mailto:jllanosvillegas@gmail.com">jllanosvillegas@gmail.com</a>.</p>
+
+<h2>2. Qué se queda en tu dispositivo</h2>
+<p>Esto no sale de tu móvil salvo por tu propia copia de iCloud (apartado 3):</p>
+<ul>
+  <li><strong>Perfil de tu perro</strong>: nombre, raza, edad, tamaño, peso, objetivos y necesidades de cuidado.</li>
+  <li><strong>Actividad y entrenos</strong>: paseos, rutas GPS, duración, actividades completadas, racha y recompensas.</li>
+  <li><strong>Salud del perro</strong>: vacunas, desparasitaciones, recordatorios y evolución del peso.</li>
+  <li><strong>Fotos</strong> del perro que elijas.</li>
+  <li><strong>Tu nombre</strong>, si lo introduces.</li>
+</ul>
+
+<h3>Ubicación</h3>
+<p>La app usa tu ubicación <strong>mientras grabas un entreno</strong>, y también en segundo plano
+durante esa grabación para no perder el recorrido si bloqueas la pantalla. La ruta se guarda en tu
+dispositivo. Si activas <em>Ocultar inicio y final</em>, los tramos cercanos al punto de partida y
+llegada no se dibujan ni se comparten.</p>
+
+<h3>Salud (Apple Salud / HealthKit)</h3>
+<p>Si lo autorizas, la app lee tus <strong>pulsaciones y calorías activas</strong> para registrar el
+ejercicio que haces junto a tu perro, y puede guardar tus paseos como entrenos en Apple Salud. Estos
+datos <strong>nunca</strong> se envían a nuestros servidores ni a terceros, y no se publican en la
+manada. Puedes revocar el permiso en Ajustes → Salud.</p>
+
+<h2>3. iCloud</h2>
+<p>La app hace copia de tus datos en <strong>tu propia cuenta de iCloud</strong>, en el espacio privado
+de la app. Sirve para que no pierdas el historial al cambiar de móvil. Nosotros no tenemos acceso a
+esa copia: se rige por tu contrato con Apple. Puedes desactivarla desde los ajustes de iCloud de tu
+dispositivo.</p>
+
+<h2>4. Tu cuenta Wagtive</h2>
+<p>Crear cuenta es <strong>opcional</strong>: la app funciona entera sin ella. Si la creas, usamos
+<strong>Firebase Authentication</strong> (Google Ireland Limited) para gestionarla.</p>
+<ul>
+  <li><strong>Con Apple</strong>: Apple nos da un identificador y, si lo autorizas, tu nombre y correo.
+    Puedes elegir ocultar tu correo real. No recibimos tu contraseña.</li>
+  <li><strong>Con correo</strong>: guardamos tu dirección de correo. La contraseña la custodia Firebase
+    cifrada; nosotros no la vemos ni podemos recuperarla.</li>
+</ul>
+<p>La cuenta se usa para identificarte en la manada y para poder recuperarla si cambias de móvil.
+<strong>Los datos de tu perro no se suben a tu cuenta</strong>: siguen viajando por tu iCloud.</p>
+
+<h2>5. La manada (opcional, y apagada de fábrica)</h2>
+<p>La manada es la parte social: buscar otros perros, mandar solicitudes de amistad y comparar
+actividad. <strong>Está desactivada hasta que tú la enciendes</strong>, y puedes apagarla cuando
+quieras — al hacerlo se retira lo publicado.</p>
+
+<h3>5.1 Directorio de perros</h3>
+<p>Si entras en el directorio, se publican en <strong>Cloud Firestore</strong> estos datos, visibles
+para otros usuarios de Wagtive que hayan iniciado sesión:</p>
+<ul>
+  <li>Nombre de usuario que elijas (por ejemplo <em>@nala</em>)</li>
+  <li>Nombre, raza y foto de tu perro</li>
+  <li>Tu nombre de pila, si lo has introducido, para distinguir perros con el mismo nombre</li>
+  <li>Tus patitas acumuladas</li>
+</ul>
+<p>Además existe un interruptor <strong>«Aparecer en las búsquedas»</strong>. Si lo apagas, mantienes
+tu nombre de usuario pero <strong>tu perro deja de salir en las búsquedas de los demás</strong>.</p>
+
+<h3>5.2 Solicitudes de amistad</h3>
+<p>Al mandar una solicitud, la otra persona ve el nombre, el usuario y la foto de tu perro. Las
+solicitudes sólo son visibles para quien las manda y quien las recibe.</p>
+
+<h3>5.3 Entrenos compartidos</h3>
+<p>Con la manada activada, los entrenos que grabes se publican en la base de datos pública de
+<strong>Apple CloudKit</strong> y son visibles para el resto de usuarios de Wagtive:</p>
+<ul>
+  <li>Nombre de tu perro, distancia, duración y calorías del entreno</li>
+  <li>Una <strong>versión aproximada del recorrido</strong>, reducida a celdas de mapa, no el trazado exacto</li>
+</ul>
+<div class="note">
+  <strong>Lo que nunca se publica en la manada:</strong> tu dirección, tu ubicación en tiempo real, tus
+  datos de Apple Salud, la salud o el peso de tu perro, tu correo electrónico ni el trazado GPS exacto
+  de tus rutas.
+</div>
+
+<h3>5.4 Denuncias y bloqueo</h3>
+<p>Puedes denunciar o bloquear a cualquier usuario desde la propia app. Las denuncias se guardan para
+revisarlas y sólo son accesibles para el responsable; la persona denunciada no puede saber quién la
+denunció.</p>
+
+<h2>6. Clima</h2>
+<p>Para avisarte del calor o el frío antes de salir, la app envía una <strong>coordenada
+aproximada</strong> —redondeada a unos 100 metros, nunca tu posición exacta— al servicio
+<a href="https://open-meteo.com/" rel="noopener">Open-Meteo</a>. No se envía tu nombre, el de tu perro
+ni ningún identificador.</p>
+
+<h2>7. Analítica</h2>
+<p>Usamos <strong>Firebase Analytics</strong> para saber qué pantallas se usan y dónde se atasca la
+gente. Se envían eventos de producto (por ejemplo «se abrió el paywall») sin nombres, sin coordenadas
+y sin datos de salud. <strong>Puedes desactivarla</strong> en Ajustes → Privacidad; al hacerlo se apaga
+también la recogida del propio SDK de Google.</p>
+
+<h2>8. Compras</h2>
+<p>Las suscripciones se gestionan íntegramente por <strong>Apple</strong> a través de la App Store.
+No recibimos ni almacenamos tus datos de pago. Sólo sabemos si tienes o no una suscripción activa.</p>
+
+<h2>9. Dónde se guardan los datos y quién los trata</h2>
+<table>
+  <tr><th>Datos</th><th>Servicio</th><th>Ubicación</th></tr>
+  <tr><td>Cuenta (correo, identificador)</td><td>Firebase Authentication — Google</td><td>UE / EE. UU.</td></tr>
+  <tr><td>Directorio y solicitudes</td><td>Cloud Firestore — Google</td><td>Unión Europea (<code>eur3</code>)</td></tr>
+  <tr><td>Copia privada</td><td>iCloud — Apple</td><td>Según tu cuenta de Apple</td></tr>
+  <tr><td>Entrenos de la manada</td><td>CloudKit público — Apple</td><td>Según Apple</td></tr>
+  <tr><td>Analítica</td><td>Firebase Analytics — Google</td><td>EE. UU.</td></tr>
+</table>
+<p>Google y Apple actúan como encargados del tratamiento. Las transferencias fuera del Espacio
+Económico Europeo se amparan en las cláusulas contractuales tipo de la Comisión Europea.</p>
+
+<h2>10. Base legal (RGPD)</h2>
+<ul>
+  <li><strong>Ejecución del contrato</strong>: el funcionamiento de la app y de tu cuenta.</li>
+  <li><strong>Consentimiento</strong>: la manada, la analítica y el acceso a Apple Salud. Puedes
+      retirarlo en cualquier momento desde los ajustes de la app, sin perder el resto de funciones.</li>
+  <li><strong>Interés legítimo</strong>: prevenir abusos y atender denuncias.</li>
+</ul>
+
+<h2>11. Conservación</h2>
+<ul>
+  <li>Los datos del dispositivo se conservan hasta que borras el perro o desinstalas la app.</li>
+  <li>La ficha del directorio y las solicitudes se conservan mientras tengas cuenta.</li>
+  <li>Al <strong>eliminar tu cuenta</strong> se borran de inmediato tu ficha del directorio, tu nombre
+      de usuario, tus solicitudes, lo publicado en la manada y tu usuario del proveedor de identidad.</li>
+  <li>Las denuncias se conservan hasta 12 meses para poder detectar abusos reincidentes.</li>
+</ul>
+
+<h2>12. Tus derechos y tu control</h2>
+<ul>
+  <li><strong>Acceso y portabilidad</strong>: desde Ajustes → «Exportar mis datos» obtienes un archivo
+      JSON con perfil, plan, historial, rutas, salud, peso y objetivos.</li>
+  <li><strong>Supresión</strong>: puedes borrar cualquier perro, o tu cuenta entera desde
+      Ajustes → «Eliminar mi cuenta». No se puede deshacer.</li>
+  <li><strong>Oposición y retirada del consentimiento</strong>: apagando la manada, la analítica o los
+      permisos de ubicación y salud.</li>
+  <li><strong>Rectificación</strong>: editando el perfil desde la app.</li>
+</ul>
+<p>Para cualquier otro derecho, escribe a
+<a href="mailto:jllanosvillegas@gmail.com">jllanosvillegas@gmail.com</a>. También puedes reclamar ante
+la <a href="https://www.aepd.es" rel="noopener">Agencia Española de Protección de Datos</a>.</p>
+
+<h2>13. Menores</h2>
+<p>Wagtive no está dirigida a menores de 13 años y no recoge conscientemente sus datos. Si crees que un
+menor nos ha facilitado datos, escríbenos y los eliminaremos.</p>
+
+<h2>14. Cambios en esta política</h2>
+<p>Si cambia algo relevante, se actualizará esta página y la fecha de arriba. Cuando el cambio afecte a
+datos que salen de tu dispositivo, se avisará dentro de la app.</p>
+
+<hr id="en" style="margin:4rem 0 2rem; border:0; border-top:1px solid var(--line);">
+
+<h1>Wagtive Privacy Policy</h1>
+<p class="updated">Last updated: 25 August 2026</p>
+
+<p class="lead">Wagtive keeps everything on your device by default. The only things that leave it are
+the ones you switch on: your own iCloud backup, your account, and — if you enable it — the pack.</p>
+
+<h2>1. Controller</h2>
+<p>Wagtive, developed by <strong>Jota Llanos</strong>. For any privacy question, or to exercise your
+rights, contact <a href="mailto:jllanosvillegas@gmail.com">jllanosvillegas@gmail.com</a>.</p>
+
+<h2>2. What stays on your device</h2>
+<p>The following never leaves your phone except through your own iCloud backup (section 3): your dog's
+profile (name, breed, age, size, weight, goals, care needs), activity and workouts (walks, GPS routes,
+duration, streak, rewards), your dog's health records, photos you choose, and your name if you enter it.</p>
+<p><strong>Location</strong> is used while you record a workout, including in the background during that
+recording. Routes are stored on your device. With <em>Hide start and finish</em> on, the segments near
+your start and end points are neither drawn nor shared.</p>
+<p><strong>Apple Health</strong>: if you allow it, the app reads your heart rate and active energy to log
+the exercise you do alongside your dog, and can save walks as workouts. This data is never sent to our
+servers or third parties, and never published to the pack.</p>
+
+<h2>3. iCloud</h2>
+<p>The app backs your data up to <strong>your own iCloud account</strong>, in the app's private space.
+We have no access to it; it is governed by your agreement with Apple.</p>
+
+<h2>4. Your Wagtive account</h2>
+<p>An account is <strong>optional</strong>. If you create one, we use <strong>Firebase
+Authentication</strong> (Google Ireland Limited). With Apple, we receive an identifier and, if you
+allow it, your name and email — you may hide your real address. With email, we store your address;
+your password is held encrypted by Firebase and we never see it. <strong>Your dog's data is not
+uploaded to your account</strong> — it still travels through your iCloud.</p>
+
+<h2>5. The pack (optional, off by default)</h2>
+<p>The pack is the social side: finding other dogs, sending friend requests and comparing activity.
+It is <strong>off until you turn it on</strong>, and turning it off withdraws what was published.</p>
+<p><strong>Directory</strong>: your chosen username, your dog's name, breed and photo, your first name
+if entered, and your paw points are published to <strong>Cloud Firestore</strong> and visible to signed-in
+Wagtive users. The <em>Appear in searches</em> switch removes you from other people's searches.</p>
+<p><strong>Friend requests</strong> are visible only to sender and recipient.</p>
+<p><strong>Shared workouts</strong>: with the pack on, workouts you record are published to Apple's
+<strong>public CloudKit</strong> database — your dog's name, distance, duration, calories, and an
+<strong>approximate version of the route reduced to map cells</strong>, not the exact track.</p>
+<div class="note">
+  <strong>Never published to the pack:</strong> your address, your real-time location, your Apple Health
+  data, your dog's health or weight records, your email address, or your exact GPS track.
+</div>
+<p>You can report or block any user from within the app. Reports are accessible only to the controller;
+the reported person cannot learn who reported them.</p>
+
+<h2>6. Weather</h2>
+<p>An <strong>approximate coordinate</strong> — rounded to roughly 100 metres, never your exact position —
+is sent to <a href="https://open-meteo.com/" rel="noopener">Open-Meteo</a>. No names or identifiers are sent.</p>
+
+<h2>7. Analytics</h2>
+<p>We use <strong>Firebase Analytics</strong> for product events, with no names, coordinates or health
+data. You can turn it off in Settings → Privacy, which also disables Google's own SDK collection.</p>
+
+<h2>8. Purchases</h2>
+<p>Subscriptions are handled entirely by <strong>Apple</strong>. We never receive or store payment details.</p>
+
+<h2>9. Where data is stored</h2>
+<p>Account data: Firebase Authentication (Google), EU/US. Directory and requests: Cloud Firestore
+(Google), European Union (<code>eur3</code>). Private backup: iCloud (Apple). Pack workouts: public
+CloudKit (Apple). Analytics: Firebase Analytics (Google), US. Google and Apple act as processors;
+transfers outside the EEA rely on the European Commission's Standard Contractual Clauses.</p>
+
+<h2>10. Legal basis (GDPR)</h2>
+<p>Performance of the contract for the app and your account; <strong>consent</strong> for the pack,
+analytics and Apple Health access, withdrawable at any time in the app's settings; legitimate interest
+for abuse prevention.</p>
+
+<h2>11. Retention</h2>
+<p>Device data is kept until you delete the dog or uninstall. Your directory entry and requests are kept
+while you have an account. <strong>Deleting your account</strong> immediately removes your directory
+entry, username, friend requests, everything published to the pack, and your identity-provider user.
+Reports are kept for up to 12 months to detect repeat abuse.</p>
+
+<h2>12. Your rights</h2>
+<p><strong>Access and portability</strong>: Settings → "Export my data" produces a JSON file.
+<strong>Erasure</strong>: delete any dog, or your whole account from Settings → "Delete my account".
+<strong>Objection and withdrawal of consent</strong>: switch off the pack, analytics, or location and
+health permissions. <strong>Rectification</strong>: edit the profile in the app. For anything else,
+contact <a href="mailto:jllanosvillegas@gmail.com">jllanosvillegas@gmail.com</a>. You may also lodge a
+complaint with the <a href="https://www.aepd.es" rel="noopener">Spanish Data Protection Agency</a>.</p>
+
+<h2>13. Children</h2>
+<p>Wagtive is not directed at children under 13 and does not knowingly collect their data.</p>
+
+<h2>14. Changes</h2>
+<p>Material changes will be reflected here with an updated date, and announced in the app when they
+affect data that leaves your device.</p>
+
+<footer>© 2026 Jota Llanos · Wagtive</footer>
+
+</main>
+</body>
+</html>
